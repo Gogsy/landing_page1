@@ -9,11 +9,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #d3d3d3;
+    background-color: #fff;
 }
 
 img {
     width: 100%;
+
 }
 
 h1, h2 {
@@ -60,11 +61,6 @@ ul {
     height: 60px;
 }
 
-.header .container h1 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
 
 .navbar .container {
     display: flex;
@@ -83,7 +79,125 @@ ul {
 }
 
 .header {
-    height: 450px;
     background-color: #1f2937;
+    height: 550px;
 }
 
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    line-height: 1.2;
+}
+
+.header img {
+    max-width: 500px;
+    min-width: 400px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    flex-wrap: nowrap;
+}
+
+.sign {
+    margin-top: 20px;
+   background-color: #3882f6;
+   border: none;
+   color: #fff;
+   padding: 10px 35px; 
+   text-decoration: none;
+   border-radius: 10px;
+   font-size: 16px;
+   text-align: center;
+   display: inline-block;
+}
+
+.sign:hover {
+    background-color: #fff;
+    color: #3882f6;
+    font-weight: bold;
+}
+
+.boxes {
+    align-items: center;
+    text-align: center;
+}
+
+.boxes h2 {
+    padding-top: 25px;
+}
+
+.boxes .container {
+    display: flex;
+}
+
+
+.box {
+    margin: 10px 0px 50px 25px;
+    padding: 10px 50px 50px 0;
+
+}
+
+.box .imagebox img{
+    max-width: 200px;
+    min-width: 150px;
+    border: 2px solid #689cf0;
+    border-radius: 5px;
+}
+
+.boxes h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding-bottom: 50px;
+}
+
+.testimonial p {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.author {
+   align-self: flex-end;
+   font-weight: 600;
+   font-style: italic;
+
+
+}
+
+.testimonial .container {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.market {
+    justify-content: center;
+}
+
+.market .container {
+    max-width: 800px;
+    background-color:#3882f6;
+    border-radius: 10px;
+    height: 180px;
+    justify-content: space-around;
+    flex: 2;
+    align-content: center;
+}
