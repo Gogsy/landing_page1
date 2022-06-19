@@ -80,7 +80,7 @@ ul {
 
 .header {
     background-color: #1f2937;
-    height: 550px;
+    height: 480px;
 }
 
 .header p {
@@ -185,25 +185,50 @@ ul {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 400px;
+    height: 350px;
 }
 
 .market {
-    justify-content: space-around;
     background-color: #3882f6;
     border-radius: 10px;
     width: 1000px;
     height: 150px;
-    margin: 0 auto;
+    margin: 40px auto 40px auto;
 }
 
 .market .container {
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    justify-content: space-around;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 15px;
 }
 
 .button2 {
-    align-self: center;
+    margin-top: 20px;
+   background-color: #3882f6;
+   border: 3px white solid;
+   color: #fff;
+   padding: 10px 35px; 
+   text-decoration: none;
+   border-radius: 10px;
+   font-size: 16px;
+   text-align: center;
+   display: inline-block;
+}
+
+.footer {
+    background-color: #1f2937;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 15px;
 }
