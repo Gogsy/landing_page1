@@ -189,15 +189,21 @@ ul {
 }
 
 .market {
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
 }
 
 .market .container {
-    max-width: 800px;
-    background-color:#3882f6;
-    border-radius: 10px;
-    height: 180px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
     justify-content: space-around;
-    flex: 2;
-    align-content: center;
+}
+
+.button2 {
+    align-self: center;
 }
